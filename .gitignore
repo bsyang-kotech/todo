@@ -1,0 +1,11 @@
+@"
+# 민감 정보
+.env
+.env.local
+
+# 의존성 폴더
+node_modules/
+
+# 로그·임시 파일
+*.log
+"@ | Out-File -FilePath .gitignore -Encoding utf8
